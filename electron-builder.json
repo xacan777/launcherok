@@ -8,7 +8,8 @@
   },
   "files": [
     "build/**/*",
-    "public/electron.js"
+    "main.js",
+    "package.json"
   ],
   "win": {
     "target": "portable",
