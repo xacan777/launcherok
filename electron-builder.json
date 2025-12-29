@@ -1,0 +1,18 @@
+{
+  "appId": "com.turbo.launcher",
+  "productName": "TURBO_Launcher",
+  "copyright": "Copyright \u00a9 2024 TURBO",
+  "directories": {
+    "output": "dist",
+    "buildResources": "public"
+  },
+  "files": [
+    "build/**/*",
+    "public/electron.js"
+  ],
+  "win": {
+    "target": "portable",
+    "icon": "public/logo192.png"
+  },
+  "asar": true
+}
